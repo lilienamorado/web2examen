@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movies Shop</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+		<div class="view view-main view-init">
+
+			<!-- Menú Lateral -->
+			<section class="panel panel-left panel-cover">
+			
+				<div class="panel-info">
+					<span class="material-icons">face</span>
+					<h4>Lilia Enamorado</h4>
+				</div>
+				
+				<div class="list">
+				  <ul>
+					<li>
+					  <a href="/home/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">home</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Home</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/brands/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">ballot</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Brands</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/offers/" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">sell</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Offers</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">local_mall</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Wish List</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">shopping_cart</i></div>
+						<div class="item-inner">
+						  <div class="item-title">My Orders</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">notifications</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Notifications</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-content panel-close">
+						<div class="item-media"><i class="material-icons">account_circle</i></div>
+						<div class="item-inner">
+						  <div class="item-title">My Account</div>
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+				
+			</section>
+			
+			
+			<section data-name="home" class="page">
+
+				<!-- Top Navbar -->
+				<nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="title">Movies Shop</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span>
+						</a>
+					</div>
+				</div>
+				</nav>
+
+				
+
+				<section class="page-content">
+
+					<article id="promo" class="card">
+						<div class="card-content card-content-padding">
+							<div class="row">
+							
+								<article class="col">
+									<h4>Save 25%</h4>
+									Enjoy flash sale, and sabe up to 100$
+									<a href="/info/" class="button button-fill button-small">Shop Now</a>
+								</article>
+								
+								<article class="col">
+									<img src="img/flyknit-1.png" alt="promo" class="img-fluid">
+								</article>
+							
+							</div>
+						</div>
+					</article>
+					
+					<div class="row">
+						<article class="col">
+							<h2 class="block-title block-title-medium">Top Brands</h2>
+						</article>
+						
+						<article class="col text-align-right">
+							<a href="/brands/" class="block-title link text-small">See More</a>
+						</article>
+					</div>
+					
+					<article id="brands" class="block">
+						
+						
+						
+						<div class="swiper-container swiper-init" data-slides-per-view="3">
+                            <div class="swiper-wrapper">
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/adidas.png" class="img-fluid" alt="adidas">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/nike.jpg" class="img-fluid" alt="nike">
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/puma.png" class="img-fluid" alt="puma">
+                                        </div>
+                                    </div>
+                                </article>
+
+								<article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/reebok.png" class="img-fluid" alt="puma">
+                                        </div>
+                                    </div>
+                                </article>
+								
+								<article class="swiper-slide">
+                                    <div class="card">						
+                                        <div class="card-content">
+                                            <img src="img/asics.png" class="img-fluid" alt="puma">
+                                        </div>
+                                    </div>
+                                </article>
+								
+                            </div>
+						</div>
+						
+						
+						
+					</article>
+					
+					
+					<div class="row">
+						<article class="col">
+							<h2 class="block-title block-title-medium">Offers & Deals</h2>
+						</article>
+						
+						<article class="col text-align-right">
+							<a href="/offers/" class="block-title link text-small">See More</a>
+						</article>
+					</div>
+					
+					<article id="offers" class="block">
+						
+						<div class="row">
+							<article class="col">
+								<div class="card bg-zara">						
+									<div class="card-content">
+										Zara Offers
+										<h4>50%</h4>
+									</div>
+								</div>
+							</article>
+							
+							<article class="col">
+								<div class="card bg-nike">						
+									<div class="card-content">
+										Nike Offers
+										<h4>30%</h4>
+									</div>
+								</div>
+							</article>
+							
+						
+						</div>
+						
+						
+						
+					</article>
+					
+				</section>
+
+				
+				
+				
+			</section> <!-- /page-content-->
+			
+			<!-- Bottom Navbar -->
+            <nav class="toolbar toolbar-bottom">
+              <div class="toolbar-inner">
+                <a href="/home/" class="link">
+                  <span class="material-icons">home</span>					 
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">favorite_border</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">notifications_none</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">shopping_cart</span>					  
+                </a>
+                <a href="#" class="link">
+                  <span class="material-icons">person_outline</span>					  
+                </a>
+              </div>
+            </nav>
+			
+		</div><!-- /view-->
+	</div><!-- /app -->
+	
+	
+	
+<section class="login-screen modal-in" id="login">
+	<div class="view">
+      <section class="page">
+        <div class="page-content login-screen-content">
+			<a href="#" class="link">
+                  <a href="#" class="link-account"><span class="material-icons">account_circle</span>				  
+                </a>
+				</a>
+          	<div class="login-screen-title">
+				Movies Shop 
+			</div>
+				<p>Enjoy your favorite movies</p>
+				
+          <form id="form-login">
+            <div class="list">
+              <ul>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Email</div>
+                    <div class="item-input-wrap">
+                      <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Password</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="password" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list block">
+              <ul>
+                <li><button type="submit" class="button button-fill" id="btnLogin">Log In</button></li>
+              </ul>
+				<ul>
+                <li><button type="submit" class="button button-fill" id="btnSignin">Sign Up</button></li>
+              </ul>
+              
+            </div>
+          </form>
+        </div>
+      </section> <!-- /page -->
+    </div>
+</section><!-- /login-screen -->
+
+	
+	
+<section class="login-screen" id="signup" style="z-index: 99999;">
+	<div class="view">
+      <section class="page">
+        <div class="page-content login-screen-content">
+          	<div class="login-screen-title">
+				Sign Up
+			</div>
+          <form>
+            <div class="list">
+              <ul>
+				<li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Name</div>
+                    <div class="item-input-wrap">
+                      <input type="text" name="name" placeholder="Your name" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Email</div>
+                    <div class="item-input-wrap">
+                      <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Password</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="password" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+				<li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Confirm Password</div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="confpassword" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list block">
+              <ul>
+                <li><button type="submit" class="button button-fill" id="btnSignUp">Sign In</button></li>
+              </ul>
+              <div class="block-footer">
+                <p><a class="link login-screen-close" href="#">Cancel</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section> <!-- /page -->
+    </div>
+</section><!-- /login-screen -->
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>

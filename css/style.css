@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+:root{
+	--f7-theme-color:#f2ebf2;
+	--f7-navbar-bg-color: #eb34e1; /*navbar*/
+	--f7-navbar-text-color:#fff;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-oscuro:#000;
+	--color-gris:#E6E8EA;
+	--color-verde:#eb34e1;
+	--color-negro:#000;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #eb34e1;
+}
+.navbar a{
+	color: #fff !important;
+}
+nav.toolbar a,
+nav.tabbar-label{
+	color: var(--color-negro);
+}
+
+.link-account{
+	color: #eb34e1;
+	text-align: center;
+	padding-left: 750px;
+	width: 300px;
+	height: 300px;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	color: var(--color-oscuro);
+	font-size: 16px;
+	text-align: center;
+}
+
+.panel-left{
+	background-color: #f2f2f2;
+}
+.panel-left .list{
+	margin-top: 0;
+}
+.panel-left .list ul{
+	background-color: transparent;
+	font-size: 13px;
+}
+.panel-left .list a{
+	color: var(--color-negro);
+}
+.panel-info{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+.panel-info span{
+	font-size: 40px;
+}
+.img-fluid{
+	max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 5px 0;
+	color: #000000;
+}
+.block-title-medium{
+	margin-top: 12px;
+	font-size: 22px;
+}
+.text-small{
+	font-size: 13px;
+}
+.block-title{
+	color: var(--color-negro);
+}
+
+#promo{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	font-size: 12px;
+}
+#promo h4{
+	font-size: 22px;
+}
+#promo .button{
+	color: var(--f7-theme-color);
+	background-color: #fff;
+	margin-top: 10px;
+	display: table;
+	text-transform: inherit;
+}
+
+
+.bg-zara{
+	background-image: url("../img/kids-basketball.jpg");
+	background-size: cover;
+}
+.bg-nike{
+	background-image: url("../img/kids-running.jpg");
+	background-size: cover;
+}
+
+#offers .card{
+	height: 160px;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+#offers .card-content{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.60);
+	width: 100%;
+}
+#offers .card h4{
+	font-size: 18px;
+	margin-top: 0;
+}
+
+.list-products .item-media{
+	max-width: 100px;
+}
+
+.list-products li{
+	box-shadow: 0px 0px 10px 0px #eee;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+.list-products .item-title{
+	color: var(--color-negro);
+	font-weight: 600;
+}
+.list-products .item-subtitle{
+	color: #888;
+}
+.list-products h4{
+	color: var(--f7-theme-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+.list-products span{
+	color: var(--color-negro);
+}
+.list-products h6{
+	background-color: #28a169;
+	display: inline;
+	padding: 3px 10px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.list .item-inner::after,
+.list ul::before,
+.list ul::after{
+	background-color: transparent;
+}
+
+
+
+.login-screen .page{
+	background-color: var(--f7-theme-color);
+}
+.login-screen .page-content{
+	padding: 15px;
+	background-color: transparent;
+	margin-top: 15% !important;
+}
+.login-screen form{
+	background-color: #f2ebf2;
+	border-radius: 10px;
+	padding: 30px 15px;
+	box-shadow: 0px 0px 15px 0px #7C899F;
+}
+
+.button{
+	background-color: #000;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color:  #fff;
+	margin-top: 10px;
+	font-weight: 900;
+	text-align:
+	width: 50%;
+}
+
+.login-screen .login-screen-title{
+	color: #000000;
+	font-size: 34px;
+}
+
+
+.precio{
+	color: var(--f7-theme-color);
+	font-size: 22px;
+	font-weight: 600;
+}
+.review{
+	color: #818181;
+	font-size: 12px;
+	margin-top: 0;
+}
+.review span{
+	font-size: 12px;
+	color: #fcc00d;
+}
+.text-info{
+	font-size: 13px;
+}
+hr{
+	border: 1px solid #eee;
+}
+.button span{
+	vertical-align: middle;
+}
+
+#confirm{
+	margin-top: 25%;
+}
+.info-confirm{
+	background-color: #f2f2f2;
+	padding: 30px 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+#confirm h2{
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#confirm .icon{
+	font-size: 60px;
+	color: #0e912c;
+}
+#confirm h3{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+#confirm h3 span{
+	font-weight: 800;
+}
+
+
+
+
+
